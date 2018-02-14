@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div class="wrapper">
+    <header class="personal-info">
+        <div class="name-block">
+            <span class="job-position">Фронт-енд-разработчик</span>
+            <h1 class="name">Алексей Кудрицкий</h1>
+        </div>
+        <div class="photo-frame personal-photo">
+        </div>
+        <p class="personal-description">
+            В веб-разработке уже 2 года, но профессионально занимался только сопровождением,
+            разрабатывал любительские проекты. Магистрант БГУ. Используемые технологии:
+            HTML(HTML5), CSS(CSS3), JavaScript, PHP. Также знаком с Java, Python.
+        </p>
+    </header>
+    <main class="portfolio-main">
+        <section class="portfolio-section">
+            <h1>Ожидания от ШРИ</h1>
+            <input id="descRadio-1" type="radio" name="descRadio"  checked>
+            <input id="descRadio-2" type="radio" name="descRadio">
+            <input id="descRadio-3" type="radio" name="descRadio">
+            <input id="descRadio-4" type="radio" name="descRadio">
+            <div class="portfolio-section-expectations">
+                <article class="describing-block" id="descBlock1">
+                    <h2>Развитие</h2>
+                    <p>
+                        Углубить свои знания в области веб-разработки,
+                        получить практические навыки в разработке веб-интерфейсов,
+                        UX, UI-дизайна, веб-технологий
+                    </p>
+                </article>
+                <article class="describing-block" id="descBlock2">
+                    <h2>Знакомства</h2>
+                    <p>
+                        Познакомиться с профессионалами в этой сфере,
+                        узнать их методики обучения, зарядиться их энергией на будущее
+                    </p>
+                </article>
+                <article class="describing-block" id="descBlock3">
+                    <h2>Испытание</h2>
+                    <p>
+                        Испытать свои навыки и способности
+                        на отборе и на учёбе в школу
+                    </p>
+                </article>
+                <article class="describing-block" id="descBlock4">
+                    <h2>Интерес</h2>
+                    <p>
+                        Веб-разработка, проектирование интерфесов сложные сферы, которые порождают
+                        множество сложных задач. Мне интересно решать сложные задачи.
+                    </p>
+                </article>
+            </div>
+            <div class="slider-pagination expectations">
+                <ul>
+                    <li class="slider-items"><label for="descRadio-1"></label></li>
+                    <li class="slider-items"><label for="descRadio-2"></label></li>
+                    <li class="slider-items"><label for="descRadio-3"></label></li>
+                    <li class="slider-items"><label for="descRadio-4"></label></li>
+                </ul>
+            </div>
+        </section>
+        <section class="portfolio-section">
+            <h1>Мои работы</h1>
+            <article class="work-in-portfolio">
+                <div class="work-slider-area">
+                    <input id="fSlider-1" type="radio" name="slider1"  checked>
+                    <input id="fSlider-2" type="radio" name="slider1">
+                    <input id="fSlider-3" type="radio" name="slider1">
+                    <div class="work-slides">
+                        <div class="slide-r" style="background-image: url('img/1.png')"></div>
+                        <div class="slide-g" style="background-image: url('img/2.png')"></div>
+                        <div class="slide-b" style="background-image: url('img/3.png')"></div>
+                    </div>
+                    <div class="slider-pagination">
+                        <ul>
+                            <li class="slider-items"><label for="fSlider-1"></label></li>
+                            <li class="slider-items"><label for="fSlider-2"></label></li>
+                            <li class="slider-items"><label for="fSlider-3"></label></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="work-description">
+                    <header class="work-description-header">
+                        <h2>ЭТП по проведению закупок в электронном формате</h2>
+                        <a href="#" class="work-website">websi.te</a>
+                    </header>
+                    <p class="description">
+                        Макет редизайна веб-сайта электронной торговой площадки<br>
+                        по проведению закупок в электронном формате
+                        ОАО "Белорусская универсальная товарная биржа"
+                    </p>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <h1>Контактная информация</h1>
+        <div class="contact-info-description">
+            <p>Я открыт для новых проектов. Вы можете прислать мне для оценки примерное техническое задание или просто описание проекта своими словами.</p>
+            <br>
+            <p class="social-header">Ссылки на мои соцсети:</p>
+            <ul>
+                <li class="social"><a href="https://vk.com/id83120098" class="social-links">Vk.com</a></li>
+                <li class="social"><a href="https://github.com/kaszmaryk" class="social-links">GitHub</a></li>
+            </ul>
+        </div>
+        <div class="contact-info-form">
+            <form>
+                <input name="name" type="text" placeholder="Your name">
+                <input name="email" type="email" placeholder="your email">
+                <textarea name="message" placeholder="Message"></textarea>
+                <label class="file-attachment"><i class="fa"></i>  Add TZ <input name="tz-file" type="file"></label>
+                <button class="send-tz-button">Send</button>
+            </form>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
